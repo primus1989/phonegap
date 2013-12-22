@@ -1,16 +1,42 @@
 ﻿<!DOCTYPE html>
 
-<html ng-app>
+<html>
 <head>
     <meta charset="utf-8" />
     <title></title>
-    <script src="angular.min.js"></script>
+   <style>
+       #mask_body
+       {
+           width:200px;
+           height:283px;
+           background:url("images/body/head_01.png");
+       }
+       #mask_eye
+       {
+           width:152px;
+           height:152px;
+           background:url("images/eye/eye_01.png");
+           margin-top: -292px;
+
+       }
+        
+   </style>
+    <script>
+        function setEye(url) {
+            document.getElementById("mask_eye").style.background = "url('" + url + "')";
+        }
+    </script>
 </head>
 <body>
-    <div>
-      <label>Name:</label>
-      <input type="text" ng-model="yourName" placeholder="Enter a name here">
-      <hr>
-      <h1>Hello {{yourName}}!</h1>
+    <div id="mask_body"></div>
+      
+    <div id="mask_eye"></div>
+
+    <div id="parts">
+        <img src="images/eye/eye_01.png" onclick="setEye('images/eye/eye_01.png')" />
+         <img src="images/eye/eye_02.png" onclick="setEye('images/eye/eye_02.png')" />
+        <img src="images/eye/eye_03.png" onclick="setEye('images/eye/eye_03.png')"/>
+
+    </div>
 </body>
 </html>
