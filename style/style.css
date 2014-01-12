@@ -1,0 +1,141 @@
+body, html
+{
+    width: 100%;
+}
+
+body
+{
+    min-width: 330px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+
+
+div#content
+{
+    width: 330px;
+    margin: 0 auto;
+}
+
+
+div#oyy, div#google
+{
+    margin: 5px;
+    padding: 5px;
+    border: none;
+}
+
+
+
+div.section
+{
+    margin: 5px;
+    padding: 15px;
+    border: solid 1px #0000ff;
+}
+
+
+
+
+div#sidebar
+{
+    width: 200px;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    border: none 1px #0000ff;
+}
+
+h1, h2, h3
+{
+    font-family: Georgia,"Times New Roman",Times;
+}
+
+h2
+{
+    font-size: 18px;
+}
+
+h2
+{
+    font-size: 16px;
+}
+
+p
+{
+    font-family: Verdana,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+
+div#sidebar p
+{
+    font-size: 12px;
+}
+
+div#contact
+{
+    clear: both;
+    padding: 10px;
+}
+
+div#footer
+{
+    clear: both;
+    padding: 10px;
+}
+
+
+fieldset, input
+{
+    margin: 10px;
+}
+
+fieldset
+{
+    padding: 10px;
+}
+
+select:focus
+{
+    background: #f9e9f9;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 20em;
+    border: 1px solid #6600ff;
+}
+
+tr.odd
+{
+    background-color: #f9e9f9;
+}
+
+tr:hover
+{
+    background-color: #e6d6e6;
+}
+
+td
+{
+    padding: 0.1em 1em;
+}
+
+
+.err
+{
+    color: #cc0000;
+}
+
+.error
+{
+    color: #cc0000;
+}
+
+
+.comment
+{
+    font-size: 12px;
+}
