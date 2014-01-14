@@ -1,3 +1,9 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
 body, html
 {
     width: 100%;
@@ -5,56 +11,34 @@ body, html
 
 body
 {
-    min-width: 330px;
     text-align: center;
     background-color: #ffffff;
 }
 
-
+#head
+{
+    width: 100%;
+    background-color: #f7afb0;
+}
 
 div#content
 {
-    width: 330px;
+    width: 100%;
+    max-width: 350px;
     margin: 0 auto;
 }
-
-
-div#oyy, div#google
-{
-    margin: 5px;
-    padding: 5px;
-    border: none;
-}
-
-
 
 div.section
 {
     margin: 5px;
     padding: 15px;
-    border: solid 1px #0000ff;
-}
-
-
-
-
-div#sidebar
-{
-    width: 200px;
-    float: left;
-    margin: 5px;
-    padding: 10px;
-    border: none 1px #0000ff;
+    border: solid 1px #6D6D6D;
 }
 
 h1, h2, h3
 {
-    font-family: Georgia,"Times New Roman",Times;
-}
-
-h2
-{
-    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #6D6D6D;
 }
 
 h2
@@ -64,78 +48,37 @@ h2
 
 p
 {
-    font-family: Verdana,Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 12px;
+    color: #6D6D6D;
 }
-
-div#sidebar p
-{
-    font-size: 12px;
-}
-
-div#contact
-{
-    clear: both;
-    padding: 10px;
-}
-
-div#footer
-{
-    clear: both;
-    padding: 10px;
-}
-
 
 fieldset, input
 {
-    margin: 10px;
+    margin: 5px;
+    color: #6D6D6D;
+}
+
+input
+{
+    background-color: #f7afb0;
+    padding: 4px 15px;
+    color: white;
 }
 
 fieldset
 {
     padding: 10px;
+    color: #6D6D6D;
+}
+
+select
+{
+    color: #6D6D6D;
 }
 
 select:focus
 {
     background: #f9e9f9;
-}
-
-table
-{
-    border-collapse: collapse;
-    width: 20em;
-    border: 1px solid #6600ff;
-}
-
-tr.odd
-{
-    background-color: #f9e9f9;
-}
-
-tr:hover
-{
-    background-color: #e6d6e6;
-}
-
-td
-{
-    padding: 0.1em 1em;
-}
-
-
-.err
-{
-    color: #cc0000;
-}
-
-.error
-{
-    color: #cc0000;
-}
-
-
-.comment
-{
-    font-size: 12px;
+    color: #6D6D6D;
 }
