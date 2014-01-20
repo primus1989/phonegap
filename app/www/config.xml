@@ -1,0 +1,13 @@
+ <widget id="com.example.besweetycalendarstr" version="0.0.1">
+        <name>Лунный календарь стрижек 2014</name>
+        <description>
+            Чтобы Ваши волосы были всегда здоровыми и сильными, а Ваша прическа долго сохраняла свою форму, предлагаю Вашему вниманию календарь ухода за волосами на 2014 год.
+        </description>
+        <author email="primus1989@i.ua" href="http://besweety.com/">
+            Besweety.com
+        </author>
+        <content src="index.html" />
+        <access origin="*" />
+        <preference name="Fullscreen" value="true" />
+        <preference name="WebViewBounce" value="true" />
+    </widget>
