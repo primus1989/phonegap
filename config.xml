@@ -28,7 +28,10 @@
         <author email="primus1989@i.ua" href="http://besweety.com/">
             Besweety.com
         </author>
-        <icon>icon.png</icon>
+        <gap:splash gap:density="ldpi" gap:platform="android" src="drawable-ldpi/ic_launcher.png" />
+<gap:splash gap:density="mdpi" gap:platform="android" src="drawable-mdpi/ic_launcher.png" />
+<gap:splash gap:density="hdpi" gap:platform="android" src="drawable-hdpi/ic_launcher.png" />
+<gap:splash gap:density="xhdpi" gap:platform="android" src="drawable-xhdpi/ic_launcher.png" />
         <content src="index.html" />
         <access origin="*" />
         <preference name="Fullscreen" value="true" />
