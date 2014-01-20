@@ -18,7 +18,7 @@
  under the License.
 -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
-        id        = "com.example.besweetycalendarstr"
+        id        = "io.besweetycalendarstr"
         version   = "1.0.0">
 
         <name>Календарь стрижек 2014</name>
