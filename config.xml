@@ -28,6 +28,7 @@
         <author email="primus1989@i.ua" href="http://besweety.com/">
             Besweety.com
         </author>
+        <icon>icon.png</icon>
         <content src="index.html" />
         <access origin="*" />
         <preference name="Fullscreen" value="true" />
