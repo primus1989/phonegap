@@ -18,7 +18,7 @@
  under the License.
 -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
-        id        = "io.besweetycalendarstr"
+        id        = "com.besweety.yourapp"
         versionCode = "1" 
         version   = "1.0.0">
 
@@ -34,6 +34,7 @@
         <access origin="*" />
         <preference name="Fullscreen" value="true" />
         <preference name="WebViewBounce" value="true" />
+        <gap:platform name="android" />
 
 </widget>
 
