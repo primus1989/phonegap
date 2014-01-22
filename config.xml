@@ -34,8 +34,9 @@
         <access origin="*" />
         <preference name="Fullscreen" value="true" />
         <preference name="WebViewBounce" value="true" />
-        <gap:platform name="android" />
+
 
 </widget>
+ <gap:platform name="android" />
 
 
