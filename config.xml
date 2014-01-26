@@ -17,6 +17,9 @@
  specific language governing permissions and limitations
  under the License.
 -->
+<resources> 
+    <item name="debuggable" type="bool">true</item> 
+</resources> 
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         id        = "com.besweety.yourapp"
         versionCode = "1" 
