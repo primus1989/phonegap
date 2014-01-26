@@ -34,7 +34,7 @@
         <icon  height="72" src="icon.png" width="72" />
         <content src="index.html" />
         <access origin="*" />
-        <preference name="loglevel" value="RELEASE" />
+        <preference name="loglevel" value="DEBUG" />
         <preference name="Fullscreen" value="true" />
         <preference name="WebViewBounce" value="true" />
         
