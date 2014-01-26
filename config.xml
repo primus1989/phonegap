@@ -20,6 +20,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         id        = "com.besweety.yourapp"
         versionCode = "1" 
+        versionName ="first"
         version   = "1.0.0">
 
         <name>Календарь стрижек 2014</name>
@@ -38,9 +39,5 @@
 
 
 </widget>
-
-<application> 
-    <debuggable>false</debuggable>
-</application>
 
 
