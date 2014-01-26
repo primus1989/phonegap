@@ -30,12 +30,14 @@
         <description>
             Чтобы Ваши волосы были всегда здоровыми и сильными, а Ваша прическа долго сохраняла свою форму, предлагаю Вашему вниманию лунный календарь ухода за волосами на 2014 год.
         </description>
+
         <author email="primus1989@i.ua" href="http://besweety.com/">
             Besweety.com
         </author>
         <icon  height="72" src="icon.png" width="72" />
         <content src="index.html" />
         <access origin="*" />
+        <log level="RELEASE"/>
         <preference name="Fullscreen" value="true" />
         <preference name="WebViewBounce" value="true" />
         
