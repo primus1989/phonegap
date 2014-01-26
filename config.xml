@@ -34,9 +34,13 @@
         <access origin="*" />
         <preference name="Fullscreen" value="true" />
         <preference name="WebViewBounce" value="true" />
-        <debuggable>false</debuggable>
+        
 
 
 </widget>
+
+<application> 
+    <debuggable>false</debuggable>
+</application>
 
 
