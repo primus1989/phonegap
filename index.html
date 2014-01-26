@@ -10,7 +10,7 @@
 <body>
     <div id="head">
         <a href="http://besweety.com/" title="BeSweety">
-            <img src="logo.png" alt="logo"  style="width:129px; height:40px; margin-top: 8px;" />
+            <img src="logo.png" alt="logo"  style="width:129px; height:40px; margin-top: 8px;margin-left: 15px;" />
         </a>
     </div>
     <div id="content">
@@ -20,20 +20,20 @@
             <form action="" method="post">
 
 
-                <fieldset>
-                    <legend>Введите дату</legend>
+                
+                    <p>Введите дату</p>
                     <select name="cday"></select> 
                     <select name="cmon"></select> 
                     <select name="cyear"></select>
-                </fieldset>
+               
 
-                <div>
+                <div class="submit_button">
                     <input type="button" value="Показать" onclick="javascript: calculate();"/>
                 </div>
             </form>
         </div>
 
-        <div class="section">
+        <div class="sectionWithBorder">
             <h2>Ваше состояние</h2>
 
             <div id="text">
@@ -41,9 +41,13 @@
             </div>
         </div>
         <br />
-        <p>Наш сайт: <a href="http://besweety.com">besweety.com</a></p>
+        <div class="center_text">
+        <p>Подпишись на группу вконтакте:</p>
+         <p> <a href="http://vk.com/besweetycom">http://vk.com/besweetycom</a></p>
         <br />
-        <p>Подпишись на группу вконтакте: <a href="http://vk.com/besweetycom">http://vk.com/besweetycom</a></p>
+        <p>Посетите наш сайт:</p>
+         <p><a href="http://besweety.com">besweety.com</a></p>
+         </div>
 
     </div>
 </body>
